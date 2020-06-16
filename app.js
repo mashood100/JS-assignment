@@ -564,3 +564,22 @@ var student_num = [320,280,430];
 document.write("score of " + student_name[0] + " is " + student_num[0] + "percentage  " +(student_num[0]/500)*100);
 document.write("score of " + student_name[1] + " is " + student_num[1] + "percentage  " +(student_num[1]/500)*100);
 document.write("score of " + student_name[2] + " is " + student_num[2] + "percentage  " +(student_num[2]/500)*100);
+
+
+// ===================chapter 17
+
+for(var i = 1; i<=10 ; i++ ){
+    document.write(i + "<br>")
+}
+
+// task 3
+
+var input =  +prompt("Enter No you want multiplicatio;n table of")
+var len = +prompt(" enter the length of the table ");
+for(var i = 0 ; i <=len.length ; i++ ) {
+    var total= input*i
+     document.write(input + " X " + i + " = " + total + "<br>" )
+ 
+ }
+
+ // task 4
